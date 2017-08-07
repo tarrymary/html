@@ -26,12 +26,30 @@
 .main-menu a {
 	text-decoration: none;
 	color: black;
+	padding: 2.5em 0;
+	font-weight: bold;
+	font-family: Arial;
 }
 
-.main-menu .item:hover {
+.main-menu .item a:hover {
 	border-bottom: 1px solid rgb(19, 96, 246);
+	color: rgb(19, 96, 246);
 }
 
+.main-menu .submenu a {
+	text-decoration: none;
+	color: black;
+	display: block;
+	padding: 0;
+	margin:0;
+	height:50px;
+	font-size: 9pt;
+	padding-left: 10px;
+}
+
+.main-menu .submenu a:hover {
+	color: rgb(19, 96, 246);
+}
 
 .main-menu {
 	font-size: 8.5pt;
@@ -42,29 +60,32 @@
 	position: relative;
 }
 
-/*.main-menu .submenu {
+.main-menu .submenu {
 	position:absolute;
-	border: 1px solid black;
 	width: 150px;
-	display: none;
 	z-index: 1000;
+	top: 60px;
+	box-sizing: border-box;
 }
-
-.main-menu > li:hover .submenu {
-	display: block;
-}*/
 
 .main-menu .subitem {
 	display: block;
-	padding-left: 10px;
 	text-transform: capitalize;
-	margin: -10px 0;
+	margin-top: -10px;
 }
 
+/*
+.main-menu > .item:hover .submenu {
+	display: block;
+}
+*/
 
 .logo {
 	display: inline-block;
 	line-height: 70px;
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 .button {
@@ -75,7 +96,9 @@
 	height: 40px;
 	text-transform: uppercase;
 	font-size: 8.5pt;
+	font-weight: bold;
 	display: inline-block;
+	margin-left: 10px;
 }
 
 .button:hover {
