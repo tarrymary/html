@@ -1,0 +1,98 @@
+.clearfix::after {
+	content:"";
+	display: table;
+	height: 0;
+	width:100%;
+	clear: both;
+}
+
+.conteiner {
+	width: 1000px;
+	background: #ddd;
+	margin: auto;
+
+}
+
+.main-menu .item {
+	display: inline-block;
+	text-transform: uppercase;
+	margin-right: 10px;
+	box-sizing: border-box;
+	height: 70px;
+	position: relative;
+	padding: 0 10px;
+}	
+
+.main-menu a {
+	text-decoration: none;
+	color: black;
+}
+
+.main-menu .item:hover {
+	border-bottom: 1px solid rgb(19, 96, 246);
+}
+
+
+.main-menu {
+	font-size: 8.5pt;
+	display:inline-block;
+}
+
+.main-menu>li {
+	position: relative;
+}
+
+/*.main-menu .submenu {
+	position:absolute;
+	border: 1px solid black;
+	width: 150px;
+	display: none;
+	z-index: 1000;
+}
+
+.main-menu > li:hover .submenu {
+	display: block;
+}*/
+
+.main-menu .subitem {
+	display: block;
+	padding-left: 10px;
+	text-transform: capitalize;
+	margin: -10px 0;
+}
+
+
+.logo {
+	display: inline-block;
+	line-height: 70px;
+}
+
+.button {
+	border: 1px solid rgb(19, 96, 246);
+	border-radius: 4px;
+	background: #fff;
+	color: rgb(19, 96, 246);
+	height: 40px;
+	text-transform: uppercase;
+	font-size: 8.5pt;
+	display: inline-block;
+}
+
+.button:hover {
+	background-color:#F5F5F5;
+}
+
+.button--blue {
+	color: #fff;
+	background-color: rgb(19, 96, 246);
+}
+
+.button--blue:hover {
+	background-color:#000080;
+}
+
+.navbar-right {
+	float:right;
+	line-height: 70px;	
+}
+
