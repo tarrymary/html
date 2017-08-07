@@ -144,5 +144,24 @@
 	font-size: 20px;
 	padding-top: 10px;
 	line-height: 25px;
+	color: grey;
 }
 
+.block {
+	display:inline-block;
+	width: 260px;
+	margin-right: 65px;
+	margin-top: 60px;
+}
+
+.header {
+	margin-bottom: 20px;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: Arial;
+}
+
+.text {
+	line-height: 25px;
+	color: grey;
+}
