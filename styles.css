@@ -176,7 +176,8 @@
 }
 
 .block__link:after {
-	content: " >";
+	content: ">";
+	padding-left: 5px;
 }
 
 .footer {
@@ -242,7 +243,8 @@
 }
 
 .footer-links__links:before {
-	content:"- ";
+	content:"-";
+	padding-right: 5px;
 }
 
 
